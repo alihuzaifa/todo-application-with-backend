@@ -1,0 +1,32 @@
+.error{
+    border-bottom: 0.8px solid #ff0000 !important;
+    text-align: left !important;
+    color: #ff0000;
+    margin-top: 5px;
+    display: none;
+}
+.account{
+    color: #0685a5 !important;
+}
+#loader{
+    width: 30px;
+    height: 22px;
+    animation: btn 1s linear infinite;
+}
+@keyframes btn {
+    0%{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

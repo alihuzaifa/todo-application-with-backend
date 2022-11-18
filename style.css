@@ -1,0 +1,42 @@
+#message{
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: #000000;
+}
+#forget{
+    text-align: end !important;
+    display: block;
+    color: #1d1dce;
+    font-weight: bolder !important;
+}
+.main-error{
+    border: 0.8px solid #000000 !important;
+    text-align: left !important;
+    padding: 4px 7px !important;
+    color: #ff0000;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: none;
+}
+#loader{
+    width: 30px;
+    height: 22px;
+    animation: btn 1s linear infinite;
+}
+@keyframes btn {
+    0%{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

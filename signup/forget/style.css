@@ -1,0 +1,12 @@
+.lock{
+    width: 400px !important;
+}
+.error{
+    border-bottom: 0.8px solid #ff0000 !important;
+    text-align: left !important;
+    padding: 4px 7px !important;
+    color: #ff0000;
+    border-radius: 5px;
+    margin-top: 5px !important;
+    display: none;
+}

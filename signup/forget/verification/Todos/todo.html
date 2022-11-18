@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap 5  -->
+    <link rel="stylesheet" href="Bootstrap 5/bootstrap.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Import Firebase -->
+    <script src="../../../../firebase/firebase-config.js" type="module"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center mt-2">
+                <img src="../../../../images/fire.png" alt="fire" id="fire">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-white text-center">
+                <h3>Todo</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 offset-0 col-sm-8 offset-sm-2 col-md-8 offset-md-2 col-lg-6 offset-lg-3 mt-1">
+                <div class="container bg-white text-dark pt-2 rounded">
+                    <div class="row border">
+                        <div class="col time-schedule header-data fw-bold">
+                            <!-- Date -->
+                        </div>
+                        <div class="col text-center text-white fw-bold">
+                            <a href="todo.html" class="incomplete">Incomplete</a>
+                        </div>
+                        <div class="col text-end header-data fw-bold">
+                            <!-- Complete Task Page -->
+                            <a href="complete/complete.html" class="complete">Complete Task</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col header-data fw-bold">
+                            <span class="task-count">0</span>:active Tasks
+                        </div>
+                        <div class="col text-end time header-data fw-bold">
+                            1:59:54 PM
+                        </div>
+                    </div>
+                    <div class="row">
+                        <form class="d-flex py-3" action="javascript:void(0)" role="search">
+                            <input class="form-control me-2" type="text" placeholder="Enter Tasks" aria-label="Search"
+                                id="todo">
+                            <!-- <button class="btn btn-outline-info fw-bold" type="submit" onclick="addData()">Add</button> -->
+                            <i class="fas fa-plus icon mt-1" id="add-btn" onclick="addData()"></i>
+                        </form>
+                    </div>
+                    <div class="row py-1 list-data">
+                        <!-- List -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- col-4 offset-4 -->
+
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Custom Javascript -->
+    <script src="javascript/app.js" type="module"></script>
+</body>
+
+</html>

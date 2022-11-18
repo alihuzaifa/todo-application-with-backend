@@ -1,0 +1,40 @@
+body {
+    background-color: #093249;
+}
+.task-line{
+    background-color: #6A0DAD;
+    color: #ffffff;
+}
+/* Incomplete in header */
+.incomplete{
+    list-style: none;
+    text-decoration: none;
+    color: blue !important;
+}
+.complete{
+    color: black !important;
+}
+
+.icon,
+.tick {
+    font-size: 25px;
+}
+.header-data{
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* for logo */
+#fire{
+    width: 80px;
+    height: 80px;
+}
+
+/* For delete button */
+.fa-trash-alt{
+    color: #f82323;
+    cursor: pointer;
+}
+.fa-trash-alt:hover{
+    color: #ffffff;
+}

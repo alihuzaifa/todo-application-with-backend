@@ -1,0 +1,63 @@
+body {
+    background-color: #093249;
+}
+.task-line{
+    background-color: #6A0DAD;
+    color: #ffffff;
+}
+/* Complete */
+.complete,.incomplete{
+    list-style: none;
+    text-decoration: none;
+}
+.incomplete{
+    color: #000000 !important;
+}
+.icon,
+.tick {
+    font-size: 25px;
+}
+.header-data{
+    font-size: 16px;
+    font-weight: 500;
+}
+/* for logo */
+#fire{
+    width: 80px;
+    height: 80px;
+}
+/* For Correct Tick */
+.fa-check{
+    color: #6A0DAD;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.fa-check:hover{
+    color: #ffffff;
+    background-color: #6A0DAD;
+}
+
+/* for add button */
+.fa-plus,.fa-download{
+    color: #ece800;
+    cursor: pointer;
+}
+.fa-plus:hover,.fa-download:hover{
+    color: #000000;
+}
+
+/* For delete button */
+.fa-trash-alt{
+    color: #f82323;
+    cursor: pointer;
+}
+.fa-trash-alt:hover{
+    color: #ffffff;
+}
+.fa-edit{
+    color: #a5fa27;
+    cursor: pointer;
+}
+.fa-edit:hover{
+    color: #ffffff;
+}
